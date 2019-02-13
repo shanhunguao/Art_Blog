@@ -1,24 +1,6 @@
 # Art_Blog
 &emsp;&emsp;基于Spring+SpringMVC+Mybatis架构的开源博客：**博客管理**、**图表数据**、**日志分析**、**访问记录**、**图库管理**、**资源管理**、**友链通知**等。良好的页面预加载，无限滚动加载，文章置顶，博主推荐等。提供 **<font color=#FF6347 size=2 >用户端+管理端</font>** 的整套系统源码。**<font color=#FF6347 size=2 >响应式设计，支持手机、平板、PC，都有良好的视觉效果！</font>**
 
-### 前言
-> 大三学生，断断续续的三个月，终于完成了一个属于自己的作品。<br>
-> 从需求分析，功能设计，前端到后台，再到数据库的设计。一点点的积累，一点点的完善。<br>
-> 长达近一个月的测试，修复和优化。以用户的视角来设计这个作品的每一个细节。<br>
-> 对一个开发人员来说，如果想单纯的做出这些功能，其实并不难。<br>
-> 难的是对于这些功能细节的把控，项目整体的友好程度，用户的体验效果；对并发的考虑，对恶意请求，对流畅度这些细节的考虑等等。
-> 在此期间，我参考了很多的优秀个人网站来丰富页面元素。<br>很多功能的解决方案都是根据自己的想法，可能并不是成熟稳定的方案。
-> 但对于没有实际企业项目经验的我来说，能够解决实际问题，就已经进步了。<br>
-> 需要添加友链的大佬，可以到 [**www.luotf.com**](http://www.luotf.com/) **<font color=#CD853F >首页右侧栏</font>** 申请添加。
-
-### 重要通知
-1. 目前已经开源，功能齐全、部署简单及完善的代码，一定会给使用者无与伦比的体验，如果觉得这个项目不错，请为它 **<font color=#FF6347 size=3 >点赞</font>** 支持。
-2. 你可以拿它作为博客模板，因为 Art_Blog 界面美观，满足私人博客的一切要求。
-3. Art_Blog 还有许多不完善的地方，鄙人才疏学浅，望见谅！
-
-### 最新版演示站点
-[www.luotf.com](http://www.luotf.com/)   <br>
-后台账号：luotf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码:admin
 
 ### 技术栈
 #### 后端
@@ -96,27 +78,5 @@ contabs | 选项卡
 #### <font color=#1E90FF size=3 >[ 访问记录 ]</font> 获取用户的真实IP、地理位置、浏览器及操作系统等。 用户每天第一次登录将会被记录、一天内多次登录或清除cookie将不会被记录。
 ![访问记录](images/访问记录.jpg)
 
-#### 其余界面访问 www.luotf.com 预览 &emsp;&emsp;后台:luotf/admin  
-### 项目部署说明
-> 1. 下载并导入本项目。
-> 2. 在数据库中导入webapp文件下的 **blog.sql** ，赠送几千条数据。 (如果sql文件导入出错,请粘贴导入) 导入成功后将会多一个 **blog** 数据库。
-> 3. 修改项目中的 **mysql.properties** 中的数据库信息。
-> 4. 进入Tomcat 安装目录，找到**conf/server.xml** 在**Host**元素中添加子元素。 （重要）
-> ```
-> <Context path="/upload" docBase="C:\upload"/> 
-> ```
-> &emsp;这里采用虚拟目录映射，实现上传图片路径与项目路径分离。<br>
-> &emsp;5. 然后通过Tomcat启动项目即可  http://localhost:8080/Blog <br>
-> &emsp;6. 如果个别文件有报错，请直接无视。因版本和开发工具差异。
-> 
-#### 最新更新情况，[**请移至这里**](http://www.luotf.com)
-### 开源赞助
-&emsp;&emsp;如果你觉得 本系统不错，有用，对你的学习有帮助，以及作者的辛苦，请作者喝杯 咖啡吧。
-#### <center><font color=#00BFFF size=3 >[ 欢迎 Star，Fork ]&emsp;&emsp;[ 欢迎提出问题，提出需求 ]&emsp;&emsp;[ 谢谢 ！]</font></center>
-<html>
-  <div align=left>支付宝|<img src="https://github.com/luotf/Art_Blog/raw/master/images/pay_1.jpg" width="200" div align=left height="200" alt="支付宝"/><!--在这里插入内容-->
-</html>
-<html>
-  <center>微信</center>
-  <img src="https://github.com/luotf/Art_Blog/raw/master/images/pay_2.jpg" width="200" div align=center height="200" alt="微信"/><!--在这里插入内容-->
+
 </html>
