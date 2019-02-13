@@ -1,9 +1,7 @@
 # Art_Blog
 &emsp;&emsp;基于Spring+SpringMVC+Mybatis架构的博客：**博客管理**、**图表数据**、**日志分析**、**访问记录**、**图库管理**、**资源管理**、**友链通知**等。良好的页面预加载，无限滚动加载，文章置顶，博主推荐等。提供 **<font color=#FF6347 size=2 >用户端+管理端</font>** 的整套系统源码。**<font color=#FF6347 size=2 >响应式设计，支持手机、平板、PC，都有良好的视觉效果！</font>**
 
-### 最新版演示站点
-[www.luotf.com](http://www.luotf.com/)   <br>
-后台账号：luotf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码:admin
+后台账号：admin;密码:a123456
 
 ### 技术栈
 #### 后端
