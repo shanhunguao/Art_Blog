@@ -41,11 +41,7 @@ contabs | 选项卡
 
 ### 界面预览
 #### <font color=#1E90FF size=3 >[ 首页 ]</font> 显示 置顶的博客，特别推荐，点击排行，最新博客等，无限滚动加载。
-!
-
 #### <font color=#1E90FF size=3 >[ 列表页 ]</font> 显示某个类别的博客列表，关键字搜索，博客数量，专题等。
-!
-
 #### <font color=#1E90FF size=3 >[ 详情页 ]</font> 显示博客的具体内容，评论，推荐博客等。（截长屏 导致图片浮动元素 出现多次）
 <html>
   <img src="https://github.com/luotf/Art_Blog/raw/master/images/info.png" width="590" div align=left height="750" alt="PC"/>
@@ -60,16 +56,9 @@ contabs | 选项卡
 
 ---
 #### <font color=#1E90FF size=3 >[ 后端首页 ]</font> 显示博客数，资源数，垃圾数，访客图表等。
-!
 #### <font color=#1E90FF size=3 >[ 博客管理 ]</font> 增/删/改/查博客，设置博客专栏等。
-!
 #### <font color=#1E90FF size=3 >[ 添加博客 ]</font> 封面图片可以直接选择服务器目录，也可以自己上传。富文本采用summernote，整合heightlight 实现代码高亮。提供发布前预览功能。
-!
 #### <font color=#1E90FF size=3 >[ 图表页 ]</font> 以图表的形式显示出博客的浏览量，网站访问量，发表量，日志数等。
-!
 #### <font color=#1E90FF size=3 >[ 操作日志 ]</font> 可以记录管理员的增删改查操作，可以记录下用户具体的查询内容等。
-!
 #### <font color=#1E90FF size=3 >[ 访问记录 ]</font> 获取用户的真实IP、地理位置、浏览器及操作系统等。 用户每天第一次登录将会被记录、一天内多次登录或清除cookie将不会被记录。
-![
-
 </html>
